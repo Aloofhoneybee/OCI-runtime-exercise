@@ -7,13 +7,13 @@
 			"gid": 1000
 		},
 		"args": [
-			"python3", "/app/hello.py"
+			"./hello"
 		],
 		"env": [
 			"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
 			"TERM=xterm"
 		],
-		"cwd": "/app",
+		"cwd": "/",
 		"capabilities": {
 			"bounding": [
 				"CAP_AUDIT_WRITE",

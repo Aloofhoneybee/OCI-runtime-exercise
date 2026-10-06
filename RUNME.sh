@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo pacstrap rootfs base python3
+mkdir -p rootfs
 
-sudo mkdir -p rootfs/app
+cp hello rootfs/
 
-sudo cp ./hello.py rootfs/app
+
